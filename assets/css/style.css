@@ -1568,6 +1568,7 @@ body.menu-open .menu-btn__text {
 .work-card:nth-child(4) { grid-column: 7 / 13; margin-top: 10vw; }
 .work-card:nth-child(5) { grid-column: 1 / 7; margin-top: 4vw; }
 .work-card:nth-child(6) { grid-column: 8 / 13; margin-top: 15vw; }
+.work-card:nth-child(7) { grid-column: 4 / 9; margin-top: 2vw; }
 .work-card__figure {
   position: relative;
   overflow: hidden;
@@ -4245,6 +4246,7 @@ body.menu-open .menu-btn__text {
   .work-card:nth-child(4) { grid-column: 6 / 13; margin-top: 12vw; }
   .work-card:nth-child(5) { grid-column: 1 / 8; }
   .work-card:nth-child(6) { grid-column: 7 / 13; margin-top: 18vw; }
+  .work-card:nth-child(7) { grid-column: 4 / 10; margin-top: 4vw; }
   .approach__head h2 {
     grid-column: 1 / 8;
   }

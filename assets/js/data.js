@@ -53,8 +53,8 @@ window.SITE = {
   aboutImageCaption: "FRAME FROM 神经也是神 / EP01",
 
   stats: [
-    { value: 5, suffix: "部", label: "作品", en: "PROJECTS" },
-    { value: 3, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
+    { value: 6, suffix: "部", label: "作品", en: "PROJECTS" },
+    { value: 4, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
     { value: 2, suffix: "部", label: "AI 短片", en: "AI SHORTS" }
   ],
 
@@ -473,6 +473,118 @@ window.SITE = {
         note: "STORYBOARD / 39 SHOTS",
         intro: "以分镜稿代替剧本，逐镜头记录景别、运镜、表演与台词。",
         pages: window.SCRIPTS.hongmen
+      }
+    },
+    {
+      slug: "late-justice",
+      title: "迟来的正义",
+      titleEn: "LATE JUSTICE",
+      year: "2026",
+      category: "海外竖屏短剧",
+      categoryEn: "VERTICAL DRAMA",
+      filter: "短剧",
+      featured: true,
+      duration: "EP01—EP05",
+      format: "9:16 · 7 集 · 待上线",
+      role: "导演 / 编剧 / 剪辑",
+      accent: "#9a8f7a",
+      cover: "assets/works/late-justice/cover.webp",
+      coverAlt: "《迟来的正义 / Late Justice》竖版海报",
+      preview: "assets/works/late-justice/preview.mp4",
+      hero: "assets/works/late-justice/hero.webp",
+      position: "50% 32%",
+      releaseLabel: "待上线",
+      releaseNote: "待上线，敬请期待。本站先展示 EP01—EP05。",
+      tagline: "真相总是来得太迟，而审判从不缺席。",
+      logline: "堕天使诺娅在第三次审判中重逢失去记忆的审判官莱娅，她们必须在爱与赎罪之间做出选择。",
+      synopsis: [
+        "天使审判庭上，诺娅被控破坏封印、害死三名人类。审判官莱娅奉命执行第三次审判，却完全不记得自己曾与诺娅相爱。诺娅没有辩解，只请求她这一次不要再救自己。",
+        "莱娅在卷轴与旧羽之间看见零碎的记忆，最终劈开锁链放走诺娅，也因此失去双翼、被逐出天堂。两人坠入凡间，在逃亡与照顾彼此的过程中，逐渐靠近那段被封印的过去。",
+        "但三名死者的家属伊芙找上门来，诺娅必须面对自己为救爱人而斩断封印的真相。为了让死者复生、让灰潮停止蔓延，她们必须找到一种不靠牺牲别人也能完成的救赎。"
+      ],
+      credits: [
+        ["导演", "邹耀辉"],
+        ["编剧", "邹耀辉"],
+        ["剪辑", "邹耀辉"],
+        ["类型", "海外竖屏短剧"],
+        ["集数", "7 集"],
+        ["本站展示", "EP01—EP05"]
+      ],
+      quote: "真相总是来得太迟，但审判从不缺席。",
+      episodes: [
+        {
+          label: "EP01",
+          title: "第三次审判",
+          duration: "2′08″",
+          poster: "assets/works/late-justice/cover.webp",
+          video: {
+            src: "assets/works/late-justice/ep01.mp4",
+            poster: "assets/works/late-justice/cover.webp",
+            duration: "2′08″",
+            vertical: true
+          }
+        },
+        {
+          label: "EP02",
+          title: "没有翅膀的天使",
+          duration: "2′09″",
+          poster: "assets/works/late-justice/cover.webp",
+          video: {
+            src: "assets/works/late-justice/ep02.mp4",
+            poster: "assets/works/late-justice/cover.webp",
+            duration: "2′09″",
+            vertical: true
+          }
+        },
+        {
+          label: "EP03",
+          title: "迟到的正义",
+          duration: "2′56″",
+          poster: "assets/works/late-justice/cover.webp",
+          video: {
+            src: "assets/works/late-justice/ep03.mp4",
+            poster: "assets/works/late-justice/cover.webp",
+            duration: "2′56″",
+            vertical: true
+          }
+        },
+        {
+          label: "EP04",
+          title: "最后一个办法",
+          duration: "2′07″",
+          poster: "assets/works/late-justice/cover.webp",
+          video: {
+            src: "assets/works/late-justice/ep04.mp4",
+            poster: "assets/works/late-justice/cover.webp",
+            duration: "2′07″",
+            vertical: true
+          }
+        },
+        {
+          label: "EP05",
+          title: "诺希的转变",
+          duration: "1′46″",
+          poster: "assets/works/late-justice/cover.webp",
+          video: {
+            src: "assets/works/late-justice/ep05.mp4",
+            poster: "assets/works/late-justice/cover.webp",
+            duration: "1′46″",
+            vertical: true
+          }
+        }
+      ],
+      gallery: [
+        { src: "assets/works/late-justice/stills/still-01.webp", caption: "EP01 / 第三次审判", ratio: "wide" },
+        { src: "assets/works/late-justice/stills/still-02.webp", caption: "EP02 / 没有翅膀的天使", ratio: "wide" },
+        { src: "assets/works/late-justice/stills/still-03.webp", caption: "EP04 / 最后一个办法", ratio: "wide" },
+        { src: "assets/works/late-justice/stills/still-04.webp", caption: "EP01 / 审判庭", ratio: "wide" }
+      ],
+      script: {
+        type: "text",
+        title: "Late Justice · 剧本",
+        note: "SCREENPLAY / 7 EPISODES",
+        intro: "第 1—7 集文学剧本，含场次、动作与人物对白。",
+        pages: window.SCRIPTS.latejustice
       }
     }
   ]
