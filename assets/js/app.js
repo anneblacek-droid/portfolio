@@ -10,7 +10,7 @@
   const DATA = (SITE.projects || []).filter(
     (project) => project && project.slug && project.status !== "draft" && project.hidden !== true
   );
-  const FEATURED = DATA.filter((project) => project.featured !== false).slice(0, 6);
+  const FEATURED = DATA.filter((project) => project.featured !== false).slice(0, 8);
   const PROJECT_FILTERS = Array.from(
     new Set(DATA.map((project) => project.filter || project.category).filter(Boolean))
   );

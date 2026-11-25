@@ -40,7 +40,7 @@ window.SITE = {
 
   intro: [
     "我关心一个故事在最后一秒留下的余味。",
-    "邹耀辉，导演、编剧、剪辑。作品涵盖海外竖屏短剧与 AI 短片，也做经典电影段落的 AI 复刻。做过 60 集海外短剧的制作总监与剪辑，也在待上线项目中同时担任导演、编剧和剪辑。"
+    "邹耀辉，导演、编剧、剪辑。作品涵盖海外竖屏短剧与 AI 短片，也做经典电影段落的 AI 复刻。做过 60 集海外短剧的制作总监与剪辑，也在多部已上线短剧中同时担任导演、编剧和剪辑。"
   ],
 
   aboutBody: [
@@ -53,8 +53,8 @@ window.SITE = {
   aboutImageCaption: "FRAME FROM 神经也是神 / EP01",
 
   stats: [
-    { value: 6, suffix: "部", label: "作品", en: "PROJECTS" },
-    { value: 4, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
+    { value: 8, suffix: "部", label: "作品", en: "PROJECTS" },
+    { value: 6, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
     { value: 2, suffix: "部", label: "AI 短片", en: "AI SHORTS" }
   ],
 
@@ -101,19 +101,19 @@ window.SITE = {
   projects: [
     {
       slug: "animal-whisperer",
-      title: "亿万富翁的动物语者",
-      titleEn: "THE BILLIONAIRE'S ANIMAL WHISPERER",
+      title: "米娅的狂野仙境",
+      titleEn: "MIA'S WILD WONDERLAND",
       year: "2026",
       category: "海外竖屏短剧",
       categoryEn: "VERTICAL DRAMA",
       filter: "短剧",
       featured: true,
-      duration: "EP59 1′27″ · EP60 1′34″",
+      duration: "EP59 1′15″ · EP60 1′23″",
       format: "9:16 · 60 集 · 已上线",
       role: "制作总监 / 剪辑",
       accent: "#b48662",
       cover: "assets/works/animal-whisperer/cover.webp",
-      coverAlt: "《The Billionaire's Animal Whisperer》EP59 海报",
+      coverAlt: "《米娅的狂野仙境 / Mia's Wild Wonderland》总海报",
       preview: "assets/works/animal-whisperer/preview.mp4",
       hero: "assets/works/animal-whisperer/hero.webp",
       position: "50% 32%",
@@ -139,24 +139,24 @@ window.SITE = {
         {
           label: "EP59",
           title: "清算",
-          duration: "1′27″",
+          duration: "1′15″",
           poster: "assets/works/animal-whisperer/cover.webp",
           video: {
             src: "assets/works/animal-whisperer/ep59.mp4",
             poster: "assets/works/animal-whisperer/cover.webp",
-            duration: "1′27″",
+            duration: "1′15″",
             vertical: true
           }
         },
         {
           label: "EP60",
           title: "名字",
-          duration: "1′34″",
-          poster: "assets/works/animal-whisperer/cover-ep60.webp",
+          duration: "1′23″",
+          poster: "assets/works/animal-whisperer/cover.webp",
           video: {
             src: "assets/works/animal-whisperer/ep60.mp4",
-            poster: "assets/works/animal-whisperer/cover-ep60.webp",
-            duration: "1′34″",
+            poster: "assets/works/animal-whisperer/cover.webp",
+            duration: "1′23″",
             vertical: true
           }
         }
@@ -185,7 +185,7 @@ window.SITE = {
       filter: "短剧",
       featured: true,
       duration: "EP01 1′49″",
-      format: "9:16 · 60 集（预计）",
+      format: "9:16 · 60 集 · 已上线",
       role: "导演 / 编剧 / 剪辑",
       accent: "#a8c3b1",
       cover: "assets/works/shenjing/cover.webp",
@@ -193,8 +193,8 @@ window.SITE = {
       preview: "assets/works/shenjing/preview.mp4",
       hero: "assets/works/shenjing/hero.webp",
       position: "50% 28%",
-      releaseLabel: "待上线",
-      releaseNote: "预计 60 集，待上线，敬请期待。当前展示 EP01。",
+      releaseLabel: "已上线",
+      releaseNote: "完整 60 集已上线，可自行搜索观看。本站展示 EP01。",
       tagline: "穿越进一本舔狗小说后，她决定不再为任何人道歉。",
       logline: "穿越进一本舔狗小说后，她决定不再为任何人道歉。",
       synopsis: [
@@ -247,7 +247,7 @@ window.SITE = {
       filter: "短剧",
       featured: true,
       duration: "前 5 集 · 14′35″",
-      format: "9:16 · 38 集（预计）",
+      format: "9:16 · 38 集 · 已上线",
       role: "导演 / 编剧 / 剪辑",
       accent: "#a77b78",
       cover: "assets/works/wolf-king/cover.webp",
@@ -255,8 +255,8 @@ window.SITE = {
       preview: "assets/works/wolf-king/preview.mp4",
       hero: "assets/works/wolf-king/hero.webp",
       position: "50% 25%",
-      releaseLabel: "待上线",
-      releaseNote: "预计 38 集，待上线，敬请期待。当前展示前五集。",
+      releaseLabel: "已上线",
+      releaseNote: "完整 38 集已上线，可自行搜索观看。本站展示 EP01—EP05。",
       tagline: "失散十八年的兔族继承人，在新婚前夜撞破了未婚妻与“兄弟”的秘密。",
       logline: "失散十八年的兔族继承人，在新婚前夜撞破了未婚妻与“兄弟”的秘密。",
       synopsis: [
@@ -341,8 +341,8 @@ window.SITE = {
       preview: "assets/works/paper-plane/preview.mp4",
       hero: "assets/works/paper-plane/hero.webp",
       position: "50% 32%",
-      releaseLabel: "",
-      releaseNote: "",
+      releaseLabel: "已上线",
+      releaseNote: "已上线，可自行搜索观看。",
       tagline: "他以为自己在救人，直到发现怪物就是自己。",
       logline: "一个儿时霸凌过别人的男孩，被噩梦困住；他想救下梦里的男孩，却发现真正的怪物是自己。",
       synopsis: [
@@ -476,6 +476,144 @@ window.SITE = {
       }
     },
     {
+      slug: "executive-shield",
+      title: "兵王归来当保镖",
+      titleEn: "EXECUTIVE SHIELD",
+      year: "2026",
+      category: "海外竖屏短剧",
+      categoryEn: "VERTICAL DRAMA",
+      filter: "短剧",
+      featured: true,
+      duration: "EP70—EP71",
+      format: "9:16 · 2 集 · 已上线",
+      role: "导演 / 编剧 / 剪辑",
+      accent: "#8e98a1",
+      cover: "assets/works/executive-shield/cover.webp",
+      coverAlt: "《兵王归来当保镖 / Executive Shield》总海报",
+      preview: "assets/works/executive-shield/preview.mp4",
+      hero: "assets/works/executive-shield/hero.webp",
+      position: "50% 30%",
+      releaseLabel: "已上线",
+      releaseNote: "完整剧集已上线，可自行搜索观看。本站展示 EP70—EP71。",
+      tagline: "权力需要保护，而保护需要代价。",
+      logline: "退役精英伊森成为女总裁的私人保镖，在一场谋杀审讯里，用沉默和身手守住最后的证据。",
+      synopsis: [
+        "前顶尖行动人员伊森·肖退役后，成了女总裁维多利亚·黑尔的私人保镖。九年前，他的父亲曾被拆迁执行人加文·默瑟指使人打伤；如今默瑟死于非命，警方把伊森列为最具动机的嫌疑人。",
+        "审讯室里，女探长克莱尔用旧案步步紧逼，警员科尔按住伊森的手腕，试图用身体威胁逼他认罪。伊森不否认自己的恨意，却拒绝让动机变成证据；他甩开压制，要求警方去查真正给默瑟付钱的人。",
+        "停车场记录、旧案财务资料和一份付款授权书相继出现，线索把默瑟的死与维多利亚的公司连在一起。伊森走出审讯室，真正的对手才刚刚浮出水面。"
+      ],
+      credits: [
+        ["导演", "邹耀辉"],
+        ["编剧", "邹耀辉"],
+        ["剪辑", "邹耀辉"],
+        ["类型", "海外竖屏短剧"],
+        ["集数", "2 集"],
+        ["本站展示", "EP70—EP71"]
+      ],
+      quote: "那就别把怀疑当成证据。",
+      episodes: [
+        {
+          label: "EP70",
+          title: "上",
+          duration: "1′28″",
+          poster: "assets/works/executive-shield/cover.webp",
+          video: {
+            src: "assets/works/executive-shield/ep70.mp4",
+            poster: "assets/works/executive-shield/cover.webp",
+            duration: "1′28″",
+            vertical: true
+          }
+        },
+        {
+          label: "EP71",
+          title: "下",
+          duration: "1′06″",
+          poster: "assets/works/executive-shield/cover.webp",
+          video: {
+            src: "assets/works/executive-shield/ep71.mp4",
+            poster: "assets/works/executive-shield/cover.webp",
+            duration: "1′06″",
+            vertical: true
+          }
+        }
+      ],
+      gallery: [
+        { src: "assets/works/executive-shield/stills/still-01.webp", caption: "EP70 / 审讯", ratio: "wide" },
+        { src: "assets/works/executive-shield/stills/still-02.webp", caption: "EP70 / 伊森", ratio: "wide" },
+        { src: "assets/works/executive-shield/stills/still-03.webp", caption: "EP71 / 克莱尔", ratio: "wide" },
+        { src: "assets/works/executive-shield/stills/still-04.webp", caption: "EP71 / 维多利亚", ratio: "wide" }
+      ],
+      script: {
+        type: "text",
+        title: "Executive Shield · 剧本",
+        note: "SCREENPLAY / EP70—EP71",
+        intro: "第 70—71 集连续剧本，含审讯、动作与中英双语对白。",
+        pages: window.SCRIPTS.executive
+      }
+    },
+    {
+      slug: "ceo-punishment",
+      title: "总裁的甜蜜惩罚",
+      titleEn: "THE CEO'S SWEET PUNISHMENT",
+      year: "2026",
+      category: "海外竖屏短剧",
+      categoryEn: "VERTICAL DRAMA",
+      filter: "短剧",
+      featured: true,
+      duration: "58″",
+      format: "9:16 · 已上线",
+      role: "执行导演 / 剪辑",
+      accent: "#b23a3a",
+      cover: "assets/works/ceo-punishment/cover.webp",
+      coverAlt: "《总裁的甜蜜惩罚 / The CEO's Sweet Punishment》总海报",
+      preview: "assets/works/ceo-punishment/preview.mp4",
+      hero: "assets/works/ceo-punishment/hero.webp",
+      position: "50% 30%",
+      releaseLabel: "已上线",
+      releaseNote: "完整剧集已上线，可自行搜索观看。本站仅展示 EP52。",
+      tagline: "权力需要保护，爱情需要代价。",
+      logline: "被父亲当作筹码的诺拉，在晚宴上撞进 CEO 马丁怀里，从此卷入一场危险的豪门游戏。",
+      synopsis: [
+        "名媛诺拉·佩奇被生父道格当作挽救公司的筹码，要在晚宴上把她送给地产富商哈维。走投无路的诺拉决定随便找一个男人毁掉父亲的算计，却撞进了拓科集团总裁马丁·休谟怀里。",
+        "马丁看穿了她酒里的药，却仍然一饮而尽。诺拉随后撞见男友托比与继妹佐伊偷情，更发现马丁竟是托比的亲叔叔。被父亲赶出家门后，她进入拓科集团成为马丁的贴身助理，也开始了这场充满掌控与暧昧的“惩罚游戏”。",
+        "订婚宴上的羞辱、雨夜绑架、酒店解围与公司内鬼，让诺拉一次次被马丁护在身后。直到道格一家买凶暗杀，马丁用一场假死引蛇出洞，才把所有威胁一次清算。"
+      ],
+      credits: [
+        ["执行导演", "邹耀辉"],
+        ["剪辑", "邹耀辉"],
+        ["类型", "海外竖屏短剧"],
+        ["本站展示", "EP52"]
+      ],
+      quote: "权力需要保护，爱情需要代价。",
+      episodes: [
+        {
+          label: "EP52",
+          title: "没有证据",
+          duration: "58″",
+          poster: "assets/works/ceo-punishment/cover.webp",
+          video: {
+            src: "assets/works/ceo-punishment/ep52.mp4",
+            poster: "assets/works/ceo-punishment/cover.webp",
+            duration: "58″",
+            vertical: true
+          }
+        }
+      ],
+      gallery: [
+        { src: "assets/works/ceo-punishment/stills/still-01.webp", caption: "EP52 / 抢救室", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-02.webp", caption: "EP52 / 对峙", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-03.webp", caption: "EP52 / 马丁", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-04.webp", caption: "EP52 / 诺拉", ratio: "wide" }
+      ],
+      script: {
+        type: "text",
+        title: "The CEO's Sweet Punishment · 剧本",
+        note: "SCREENPLAY / EP52",
+        intro: "EP52 上线片段对应的单集剧本节选。",
+        pages: window.SCRIPTS.ceo
+      }
+    },
+    {
       slug: "late-justice",
       title: "迟来的正义",
       titleEn: "LATE JUSTICE",
@@ -485,7 +623,7 @@ window.SITE = {
       filter: "短剧",
       featured: true,
       duration: "EP01—EP05",
-      format: "9:16 · 7 集 · 待上线",
+      format: "9:16 · 7 集 · 已上线",
       role: "导演 / 编剧 / 剪辑",
       accent: "#9a8f7a",
       cover: "assets/works/late-justice/cover.webp",
@@ -493,8 +631,8 @@ window.SITE = {
       preview: "assets/works/late-justice/preview.mp4",
       hero: "assets/works/late-justice/hero.webp",
       position: "50% 32%",
-      releaseLabel: "待上线",
-      releaseNote: "待上线，敬请期待。本站先展示 EP01—EP05。",
+      releaseLabel: "已上线",
+      releaseNote: "完整 7 集已上线，可自行搜索观看。本站展示 EP01—EP05。",
       tagline: "真相总是来得太迟，而审判从不缺席。",
       logline: "堕天使诺娅在第三次审判中重逢失去记忆的审判官莱娅，她们必须在爱与赎罪之间做出选择。",
       synopsis: [
