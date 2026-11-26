@@ -627,7 +627,7 @@ window.SITE = {
       hero: "assets/works/ceo-punishment/hero.webp",
       position: "50% 30%",
       releaseLabel: "已上线",
-      releaseNote: "完整剧集已上线，可自行搜索观看。本站仅展示 EP52。",
+      releaseNote: "完整剧集已上线，可自行搜索观看。本站仅展示 EP55。原剧本第 49 集；发行拆分后对应 EP55。",
       tagline: "权力需要保护，爱情需要代价。",
       logline: "被父亲当作筹码的诺拉，在晚宴上撞进 CEO 马丁怀里，从此卷入一场危险的豪门游戏。",
       synopsis: [
@@ -644,12 +644,12 @@ window.SITE = {
       quote: "权力需要保护，爱情需要代价。",
       episodes: [
         {
-          label: "EP52",
+          label: "EP55",
           title: "没有证据",
           duration: "58″",
           poster: "assets/works/ceo-punishment/cover.webp",
           video: {
-            src: "assets/works/ceo-punishment/ep52.mp4",
+            src: "assets/works/ceo-punishment/ep55.mp4",
             poster: "assets/works/ceo-punishment/cover.webp",
             duration: "58″",
             vertical: true
@@ -657,16 +657,16 @@ window.SITE = {
         }
       ],
       gallery: [
-        { src: "assets/works/ceo-punishment/stills/still-01.webp", caption: "EP52 / 抢救室", ratio: "wide" },
-        { src: "assets/works/ceo-punishment/stills/still-02.webp", caption: "EP52 / 对峙", ratio: "wide" },
-        { src: "assets/works/ceo-punishment/stills/still-03.webp", caption: "EP52 / 马丁", ratio: "wide" },
-        { src: "assets/works/ceo-punishment/stills/still-04.webp", caption: "EP52 / 诺拉", ratio: "wide" }
+        { src: "assets/works/ceo-punishment/stills/still-01.webp", caption: "EP55 / 抢救室", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-02.webp", caption: "EP55 / 对峙", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-03.webp", caption: "EP55 / 马丁", ratio: "wide" },
+        { src: "assets/works/ceo-punishment/stills/still-04.webp", caption: "EP55 / 诺拉", ratio: "wide" }
       ],
       script: {
         type: "text",
         title: "The CEO's Sweet Punishment · 剧本",
-        note: "SCREENPLAY / EP52",
-        intro: "EP52 上线片段对应的单集剧本节选。",
+        note: "SCREENPLAY / EP49",
+        intro: "原剧本第 49 集；发行拆分后对应 EP55。EP55 上线片段对应的单集剧本节选。",
         pages: window.SCRIPTS.ceo
       }
     },
