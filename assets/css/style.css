@@ -1629,8 +1629,12 @@ body.menu-open .menu-btn__text {
 }
 .work-card:nth-child(6) .work-card__figure,
 .work-card:nth-child(7) .work-card__figure,
-.work-card:nth-child(8) .work-card__figure {
+.work-card:nth-child(8) .work-card__figure,
+.work-card:nth-child(9) .work-card__figure {
   aspect-ratio: 5 / 6;
+}
+.work-card[data-cover-ratio="wide"] .work-card__figure {
+  aspect-ratio: 16 / 10;
 }
 .work-card__figure::after {
   content: "";
@@ -2379,6 +2383,12 @@ body.menu-open .menu-btn__text {
   line-height: 1.1;
   letter-spacing: 0.01em;
   white-space: nowrap;
+}
+.work-row__title.is-long-title b {
+  font-size: clamp(22px, 2.6vw, 40px);
+  line-height: 1.08;
+  letter-spacing: 0;
+  white-space: normal;
 }
 .work-row__title em {
   min-width: 0;

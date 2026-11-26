@@ -10,7 +10,7 @@
   const DATA = (SITE.projects || []).filter(
     (project) => project && project.slug && project.status !== "draft" && project.hidden !== true
   );
-  const FEATURED = DATA.filter((project) => project.featured !== false).slice(0, 8);
+  const FEATURED = DATA.filter((project) => project.featured !== false).slice(0, 9);
   const PROJECT_FILTERS = Array.from(
     new Set(DATA.map((project) => project.filter || project.category).filter(Boolean))
   );
@@ -307,6 +307,7 @@
         href="#/work/${project.slug}"
         data-cursor="view"
         data-cursor-label="VIEW"
+        data-cover-ratio="${project.coverRatio || "portrait"}"
         data-reveal
         style="--d:${index * 50}ms"
       >
@@ -480,7 +481,7 @@
         data-cursor-label="VIEW"
       >
         <span class="work-row__no">${projectNumber(project)}</span>
-        <span class="work-row__title">
+        <span class="work-row__title${Array.from(project.title).length > 10 ? " is-long-title" : ""}">
           <b>${project.title}</b>
           <em>${project.titleEn}</em>
           ${project.releaseLabel ? `<span class="status-badge${project.releaseLabel === "已上线" ? " is-online" : ""}">${project.releaseLabel}</span>` : ""}
@@ -1547,7 +1548,7 @@
   let reelProjects = [];
 
   function initReelMedia() {
-    const items = (FEATURED.length ? FEATURED : DATA).slice(0, 8);
+    const items = (FEATURED.length ? FEATURED : DATA).slice(0, 9);
     const media = $(".reel__media", reel);
     const bars = $("#reel-bars");
     const trigger = $("[data-reel]");

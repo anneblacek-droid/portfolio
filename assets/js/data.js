@@ -53,9 +53,9 @@ window.SITE = {
   aboutImageCaption: "FRAME FROM 神经也是神 / EP01",
 
   stats: [
-    { value: 8, suffix: "部", label: "作品", en: "PROJECTS" },
+    { value: 9, suffix: "部", label: "作品", en: "PROJECTS" },
     { value: 6, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
-    { value: 2, suffix: "部", label: "AI 短片", en: "AI SHORTS" }
+    { value: 3, suffix: "部", label: "AI 短片", en: "AI SHORTS" }
   ],
 
   capabilities: [
@@ -476,9 +476,66 @@ window.SITE = {
       }
     },
     {
+      slug: "xixuanyin",
+      title: "曦玄引",
+      titleEn: "XI XUAN YIN",
+      year: "2026",
+      category: "AI 3D 短片",
+      categoryEn: "AI 3D SHORT",
+      filter: "短片",
+      featured: true,
+      coverRatio: "wide",
+      duration: "5′29″",
+      format: "16:9 · 3D ANIMATION · STEREO",
+      role: "导演 / 编剧 / 剪辑",
+      accent: "#b9925a",
+      cover: "assets/works/xixuanyin/cover.webp",
+      coverAlt: "《曦玄引》横版主视觉",
+      preview: "assets/works/xixuanyin/preview.mp4",
+      hero: "assets/works/xixuanyin/hero.webp",
+      position: "50% 45%",
+      releaseLabel: "已上线",
+      releaseNote: "已上线，可自行搜索观看。",
+      tagline: "仙魔有别，相峙作重逢。",
+      logline: "仙魔两界相隔，两个本该兵刃相向的人，却在重逢时认出了彼此。",
+      synopsis: [
+        "混沌初开，曦渊分出光与暗。曦光属于日光，玄鸦生于幽暗，他们一个被天意推向神位，一个被命运压入深渊，本该永远站在彼此的对岸。",
+        "一次重逢让两人认出了彼此。曦光教玄鸦跳一支“日光之舞”，动作从模仿到自由，从身体记忆变成他们对抗天意的唯一语言。",
+        "仙魔大战之后，两人以假死离开两界，在人间归隐。仙魔有别，相峙作重逢——他们最终选择以心意违抗天意。"
+      ],
+      credits: [
+        ["导演", "邹耀辉"],
+        ["编剧", "邹耀辉"],
+        ["剪辑", "邹耀辉"],
+        ["类型", "AI 3D 短片"],
+        ["片长", "5′29″"]
+      ],
+      quote: "仙魔有别，相峙作重逢。",
+      video: {
+        src: "assets/works/xixuanyin/film.mp4",
+        poster: "assets/works/xixuanyin/cover.webp",
+        duration: "5′29″",
+        vertical: false
+      },
+      gallery: [
+        { src: "assets/works/xixuanyin/stills/still-01.webp", caption: "序章 / 曦渊初生", ratio: "wide" },
+        { src: "assets/works/xixuanyin/stills/still-02.webp", caption: "第一幕 / 识", ratio: "wide" },
+        { src: "assets/works/xixuanyin/stills/still-03.webp", caption: "第二幕 / 往", ratio: "wide" },
+        { src: "assets/works/xixuanyin/stills/still-04.webp", caption: "第三幕 / 归", ratio: "wide" }
+      ],
+      script: {
+        type: "text",
+        kind: "storyboard",
+        title: "曦玄引 · 88 镜头分镜",
+        note: "STORYBOARD / 88 SHOTS",
+        intro: "完整 88 镜头 AI 3D 分镜，含场景、人物、光影、声音与动作时间轴。",
+        pages: window.SCRIPTS.xixuanyin
+      }
+    },
+    {
       slug: "executive-shield",
-      title: "兵王归来当保镖",
-      titleEn: "EXECUTIVE SHIELD",
+      title: "王牌归来：女总裁的贴身保镖",
+      titleEn: "THE ELITE BODYGUARD",
       year: "2026",
       category: "海外竖屏短剧",
       categoryEn: "VERTICAL DRAMA",
@@ -489,7 +546,7 @@ window.SITE = {
       role: "导演 / 编剧 / 剪辑",
       accent: "#8e98a1",
       cover: "assets/works/executive-shield/cover.webp",
-      coverAlt: "《兵王归来当保镖 / Executive Shield》总海报",
+      coverAlt: "《王牌归来：女总裁的贴身保镖 / The Elite Bodyguard》总海报，封面标题 EXECUTIVE SHIELD",
       preview: "assets/works/executive-shield/preview.mp4",
       hero: "assets/works/executive-shield/hero.webp",
       position: "50% 30%",
