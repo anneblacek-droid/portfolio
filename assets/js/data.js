@@ -54,8 +54,10 @@ window.SITE = {
 
   stats: [
     { value: 9, suffix: "部", label: "作品", en: "PROJECTS" },
-    { value: 6, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
-    { value: 3, suffix: "部", label: "AI 短片", en: "AI SHORTS" }
+    { value: 5, suffix: "部", label: "海外短剧", en: "VERTICAL DRAMAS" },
+    { value: 2, suffix: "部", label: "AI 短片", en: "AI SHORTS" },
+    { value: 1, suffix: "部", label: "AI 漫剧", en: "AI ANIMATED DRAMA" },
+    { value: 1, suffix: "部", label: "电影复刻", en: "FILM RECREATION" }
   ],
 
   capabilities: [
@@ -180,8 +182,8 @@ window.SITE = {
       title: "神经也是神",
       titleEn: "SHEN JING YE SHI SHEN",
       year: "2026",
-      category: "海外竖屏短剧",
-      categoryEn: "VERTICAL DRAMA",
+      category: "AI 漫剧",
+      categoryEn: "AI ANIMATED DRAMA",
       filter: "短剧",
       featured: true,
       duration: "EP01 1′49″",
@@ -425,8 +427,8 @@ window.SITE = {
       title: "鸿门宴复刻",
       titleEn: "HONGMEN BANQUET — REMAKE",
       year: "2026",
-      category: "AI 复刻",
-      categoryEn: "AI RECREATION",
+      category: "电影复刻",
+      categoryEn: "FILM RECREATION",
       filter: "复刻",
       featured: true,
       duration: "1′34″",

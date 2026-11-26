@@ -140,9 +140,10 @@
     if (entryLocation) entryLocation.textContent = SITE.hero?.location || SITE.location;
     const entryCount = $("#entry-count");
     if (entryCount) {
-      const seriesCount = DATA.filter((project) => project.category?.includes("短剧")).length;
-      const shortCount = DATA.filter((project) => project.category?.includes("短片") || project.category?.includes("复刻")).length;
-      entryCount.textContent = `${pad(DATA.length)} PROJECTS / ${pad(seriesCount)} SERIES / ${pad(shortCount)} SHORTS`;
+      const seriesCount = DATA.filter((project) => project.category?.includes("短剧") || project.category?.includes("漫剧")).length;
+      const shortCount = DATA.filter((project) => project.category?.includes("短片")).length;
+      const remakeCount = DATA.filter((project) => project.category?.includes("复刻")).length;
+      entryCount.textContent = `${pad(DATA.length)} PROJECTS / ${pad(seriesCount)} SERIES / ${pad(shortCount)} SHORTS / ${pad(remakeCount)} REMAKE`;
     }
 
     const description = `${SITE.name}，${SITE.role}。${SITE.intro?.[0] || ""}`;
@@ -761,9 +762,11 @@
   ---------------------------------------------------------- */
 
   function renderAbout() {
-    const seriesCount = DATA.filter((project) => project.category?.includes("短剧")).length;
-    const shortCount = DATA.filter((project) => project.category?.includes("短片") || project.category?.includes("复刻")).length;
-    const dynamicValues = [DATA.length, seriesCount, shortCount];
+    const overseasCount = DATA.filter((project) => project.category?.includes("海外")).length;
+    const shortCount = DATA.filter((project) => project.category?.includes("短片")).length;
+    const animeCount = DATA.filter((project) => project.category?.includes("漫剧")).length;
+    const remakeCount = DATA.filter((project) => project.category?.includes("复刻")).length;
+    const dynamicValues = [DATA.length, overseasCount, shortCount, animeCount, remakeCount];
     const stats = SITE.stats.map((stat, index) => {
       const value = Number.isFinite(dynamicValues[index]) ? dynamicValues[index] : stat.value;
       return `
